@@ -28,7 +28,6 @@ class ViewController: UICollectionViewController {
     picker.allowsEditing = true
     picker.delegate = self
     UIImagePickerController.isSourceTypeAvailable(.camera)
-//    picker.sourceType = .camera
     present(picker, animated: true)
   }
   
